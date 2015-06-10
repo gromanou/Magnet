@@ -9,14 +9,16 @@
 //		top:0;	
 // }
 //
-// To ninitiate code  
-// 
-// $(document).ready(function($) {
+// To initiate code add this to your head element
 //
-//		BCmagnet("#mainNav","magnet");
-//
-// }
-// 
+// <script>
+//	//run code on document fully loaded.
+// 	document.addEventListener("DOMContentLoaded", function(event) {
+//	    var targetElement = 'mainNav';
+//	    var className = 'magnet';
+//	    BCmagnet(targetElement,className);
+//	 });
+// </script>
 
 
 // Helper function to add or remove class. 
